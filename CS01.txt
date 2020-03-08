@@ -1,0 +1,24 @@
+
+C#企业级开发技术练习1答题卡
+
+班级:计算机信息管理2班姓名: 凌胜鹏
+学号:  21090307237
+
+注:请将答案放置在序号下方。*/
+
+(一) String ds =“2020/2/20 10:10:20";
+
+      DateTime dt = DateTime.Parse(ds);
+
+      dt = dt.AddDays(25).AddMinutes(480);
+
+      Console.WriteLine($" 25天后:{dt.Year}年{dtMonth}月{dt.Day}日{dt.TimeOfDay}");
+
+(二) String ds = "2020/2/20 10:10:20";
+
+      DateTime dt = DateTime.Parse(ds);
+
+      dt = dt.AddDays(25).AddMinutes( 480);
+
+      Console.WriteLine($"25天后:{dt.Year}年{dt.Month}月{dt.Day}日{dt.TimeOfDay}");
+
